@@ -8,20 +8,25 @@ html {
 #name {
   font-weight: 600;
 }
+
+img, body {
+  width: 556px;
+}
+
 #bottom-img {
   margin-top: 48px;
-  width: 100%;
-  max-width: 556px;
 }
 body {
-  width: 100%;
-  max-width: 556px;
+
   font-size: 18px;
   line-height: 28px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 12px;
 }
 
+li:not(:last-child) {
+  margin-bottom: 8px;
+}
 #body-container {
   margin-top: 64px;
 }
@@ -46,4 +51,23 @@ h2 {
 
 .italicize {
   font-style: italic;
+}
+
+@media (max-width: 768px) {
+  img, body {
+    width: 420px;
+  }
+}
+
+@media (max-width: 400px) {
+  img, body {
+    width: 360px;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
 }
