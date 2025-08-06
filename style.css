@@ -1,0 +1,49 @@
+html {
+  font-family: 'Jost', Arial, sans-serif;
+}
+::selection {
+  background: #f9baff;
+  color: #000000;
+}
+#name {
+  font-weight: 600;
+}
+#bottom-img {
+  margin-top: 48px;
+  width: 100%;
+  max-width: 556px;
+}
+body {
+  width: 100%;
+  max-width: 556px;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+#body-container {
+  margin-top: 64px;
+}
+
+#projects-container {
+  margin-top: 48px;
+}
+
+#header-img {
+  width: 556px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.italicize {
+  font-style: italic;
+}
