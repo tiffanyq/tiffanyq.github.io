@@ -1,12 +1,13 @@
 html {
-  font-family: 'Jost', Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 ::selection {
   background: #f9baff;
   color: #000000;
 }
 #name {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 26px;
 }
 
 img, body {
@@ -19,7 +20,7 @@ img, body {
 body {
 
   font-size: 18px;
-  line-height: 28px;
+  line-height: 36px;
   margin: 0 auto;
   padding: 12px;
 }
